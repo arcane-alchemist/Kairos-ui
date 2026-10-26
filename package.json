@@ -1,0 +1,19 @@
+{
+  "name": "poap-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/standalone.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.14",
+    "vite": "^7.1.0"
+  }
+}

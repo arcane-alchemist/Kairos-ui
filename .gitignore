@@ -1,0 +1,8 @@
+node_modules/
+dist/
+shots/
+poap.html
+.DS_Store
+.env
+.env.*
+!.env.example
